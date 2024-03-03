@@ -1,6 +1,7 @@
 :root {
-    --pm-green: #00923F;
+    --pm-green: #0CA57A;
     --pm-red: #FB1004;
+    --pm-white: white;
 }
 
 .navbar-brand {
@@ -79,15 +80,37 @@
     height: 8rem;
 }
 
-#our-team .team-designation {
-    background-color: var(--pm-red);
-    text-transform: uppercase;
-    color: white;
-    position: absolute;
-    transform-origin: bottom right;
-    transform: rotate(270deg);
-}
+
 
 #our-team .team-box {
-    /* position: absolute; */
+    background-color: var(--pm-green);
+    border: 1px solid var(--pm-green);
+}
+#our-team .team-img {
+    background-color: var(--pm-white);
+    /* width: 5ren; */
+    height: 15rem;
+}
+
+#our-team .team-designation {
+    text-transform: uppercase;
+    color: white;
+    background-color: var(--pm-red);
+    writing-mode: vertical-rl;
+    position: absolute;
+    left: -75px;
+    transform: rotate(180deg);
+    /* width: 50px; */
+    height: 100%;
+    padding: 15px 5px;
+}
+
+#our-team .team-text {
+    background-color: var(--pm-green);
+    color: var(--pm-white);
+    height: 100%;
+}
+
+#our-team .team-text h5 {
+    text-transform: uppercase;
 }
