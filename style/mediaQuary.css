@@ -12,4 +12,23 @@
     #carouselExampleControls .carousel-inner {
         padding: 0;
     }
+
+    .client_section .carousel-inner {
+        top: 0;
+        padding: 0;
+    }
+  }
+
+  @media only screen and (max-width: 500px) {
+    #do-section .col-md-3 {
+        padding-left: 34px;
+        padding-top: 15px;
+    }
+  }
+
+  @media only screen and (max-width: 575px) {
+    #our-team .row {
+        padding: 0 3.5rem;
+        margin-left: 20px;
+    }
   }
